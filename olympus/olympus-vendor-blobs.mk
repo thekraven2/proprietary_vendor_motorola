@@ -105,6 +105,7 @@ PRODUCT_COPY_FILES += \
 # system libs
 PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/lib/libmirror.so:system/lib/libmirror.so \
+    vendor/moto/sunfire/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
     vendor/motorola/olympus/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
     vendor/motorola/olympus/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
     vendor/motorola/olympus/proprietary/lib/libnvrm.so:system/lib/libnvrm.so \
