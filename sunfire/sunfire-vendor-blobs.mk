@@ -1,4 +1,3 @@
-
 PRODUCT_COPY_FILES += \
     vendor/moto/sunfire/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
     vendor/moto/sunfire/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
@@ -149,7 +148,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/sunfire/proprietary/lib/libmoto_ril.so:system/lib/libmoto_ril.so \
     vendor/moto/sunfire/proprietary/lib/librds_util.so:system/lib/librds_util.so \
     vendor/moto/sunfire/proprietary/lib/libnmea.so:system/lib/libnmea.so \
-    vendor/motorola/olympus/proprietary/lib/liba2dp.so:system/lib/liba2dp.so \
+    vendor/moto/sunfire/proprietary/lib/liba2dp.so:system/lib/liba2dp.so \
     vendor/moto/sunfire/proprietary/lib/libbattd.so:system/lib/libbattd.so \
     vendor/moto/sunfire/proprietary/lib/libnvrm_channel.so:system/lib/libnvrm_channel.so
 
