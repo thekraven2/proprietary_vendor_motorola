@@ -34,8 +34,8 @@ PRODUCT_COPY_FILES += \
     vendor/moto/sunfire/proprietary/lib/libhwmediaplugin.so:obj/lib/libhwmediaplugin.so \
     vendor/moto/sunfire/proprietary/lib/libhwmediarecorder.so:system/lib/libhwmediarecorder.so \
     vendor/moto/sunfire/proprietary/lib/libhwmediarecorder.so:obj/lib/libhwmediarecorder.so \
-    vendor/moto/sunfire/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so
-
+    vendor/moto/sunfire/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    
 # Bin
 PRODUCT_COPY_FILES += \
     vendor/moto/sunfire/proprietary/bin/mot_boot_mode:system/bin/mot_boot_mode \
@@ -161,7 +161,16 @@ PRODUCT_COPY_FILES += \
     vendor/moto/sunfire/proprietary/lib/libomx_avcdec_sharedlibrary.so:system/lib/libomx_avcdec_sharedlibrary.so \
     vendor/moto/sunfire/proprietary/lib/libomx_m4vdec_sharedlibrary.so:system/lib/libomx_m4vdec_sharedlibrary.so \
     vendor/moto/sunfire/proprietary/lib/libomx_mp3dec_sharedlibrary.so:system/lib/libomx_mp3dec_sharedlibrary.so \
+    vendor/moto/sunfire/proprietary/lib/libOMX.TI.720P.Decoder.so:/system/lib/libOMX.TI.720P.Decoder.so \
+    vendor/moto/sunfire/proprietary/lib/libOMX.TI.720P.Encoder.so:/system/lib/libOMX.TI.720P.Encoder.so \
+    vendor/moto/sunfire/proprietary/lib/libOMX.TI.AAC.decode.so:/system/lib/libOMX.TI.AAC.decode.so \
+    vendor/moto/sunfire/proprietary/lib/libOMX.TI.AMR.decode.so:/system/lib/libOMX.TI.AMR.decode.so \
+    vendor/moto/sunfire/proprietary/lib/libOMX.TI.MP3.decode.so:/system/lib/libOMX.TI.MP3.decode.so \
+    vendor/moto/sunfire/proprietary/lib/libOMX.TI.WBAMR.decode.so:/system/lib/libOMX.TI.WBAMR.decode.so \
+    vendor/moto/sunfire/proprietary/lib/libOMX.TI.WMA.decode.so:/system/lib/libOMX.TI.WMA.decode.so \
+    vendor/moto/sunfire/proprietary/lib/libOMX.TI.mp4.splt.Encoder.so:/system/lib/libOMX.TI.mp4.splt.Encoder.so \
     vendor/moto/sunfire/proprietary/lib/libomx_sharedlibrary.so:system/lib/libomx_sharedlibrary.so
+    
 
 # HDMI
 PRODUCT_COPY_FILES += \
@@ -207,7 +216,6 @@ vendor/moto/sunfire/proprietary/lib/libopencore_player.so:system/lib/libopencore
 vendor/moto/sunfire/proprietary/lib/libopencore_rtsp.so:system/lib/libopencore_rtsp.so \
 vendor/moto/sunfire/proprietary/lib/libopencore_rtspreg.so:system/lib/libopencore_rtspreg.so \
 vendor/moto/sunfire/proprietary/lib/libpixelflinger.so:system/lib/libpixelflinger.so
-
 
 #-----------------------------------------------------------------------------------------------------
 
