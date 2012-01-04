@@ -1,4 +1,3 @@
-
 # Live wallpaper packages
 PRODUCT_PACKAGES := \
     Usb \
@@ -7,6 +6,10 @@ PRODUCT_PACKAGES := \
     MagicSmokeWallpapers \
     VisualizationWallpapers \
     librs_jni
+
+# apps
+PRODUCT_PACKAGES := \
+    FileManager 
 
 # Publish that we support the live wallpaper feature.
 PRODUCT_COPY_FILES := \
